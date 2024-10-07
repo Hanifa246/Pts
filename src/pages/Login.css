@@ -1,0 +1,68 @@
+/* Center the login form */
+.login-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh; /* Full viewport height */
+     background-color: #E6E6FA; /* Light violet background */
+ }
+ 
+ /* Login form styling */
+ .login-container form {
+     background-color: #D8BFD8; /* Light purple */
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     width: 300px;
+     text-align: center;
+ }
+ 
+ /* Form header */
+ .login-container h2 {
+     color: #4B0082; /* Indigo */
+     margin-bottom: 20px;
+ }
+ 
+ /* Input field styling (reduced size) */
+ .login-container input, .login-container select {
+     width: 100%;
+     padding: 5px; /* Reduced padding */
+     margin: 8px 0; /* Slightly smaller margin */
+     font-size: 14px; /* Reduced font size */
+     border: 1px solid #4B0082; /* Indigo border */
+     border-radius: 5px;
+     background-color: #E6E6FA; /* Light violet background */
+     color: #4B0082; /* Indigo text */
+ }
+ 
+ /* Button styling */
+ .login-container button {
+     width: 100%;
+     padding: 8px; /* Adjusted button padding */
+     background-color: #8A2BE2; /* Blue violet */
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+ 
+ .login-container button:hover {
+     background-color: #4B0082; /* Indigo on hover */
+ }
+ 
+ /* Link styling */
+ .login-container p {
+     margin-top: 15px;
+     color: #9400D3; /* Dark violet */
+ }
+ 
+ .login-container a {
+     color: #4B0082; /* Indigo */
+     text-decoration: none;
+ }
+ 
+ .login-container a:hover {
+     text-decoration: underline;
+ }
+ 

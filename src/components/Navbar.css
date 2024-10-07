@@ -1,0 +1,35 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #9400D3;
+    /* Navbar title */
+    .navbar-title {
+    color: white;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    }
+    
+    /* Navbar links */
+    .navbar-links {
+ list-style-type: none;
+    margin: 0;
+     padding: 0;
+     display: flex;
+    gap: 20px; /* Spacing between links */
+    }
+    
+    /* Individual link styles */
+    .navbar-links li a {
+     color: white;
+    text-decoration: none;
+     font-size: 18px;
+     font-family: Arial, sans-serif;
+    }
+    
+    .navbar-links li a:hover {
+     text-decoration: underline;
+    }
+}

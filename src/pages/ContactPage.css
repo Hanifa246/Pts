@@ -1,0 +1,66 @@
+/* Center the contact form */
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #E6E6FA; /* Light violet background */
+}
+
+/* Contact form styling */
+.contact-page form {
+    background-color: #D8BFD8; /* Light purple */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Form header */
+.contact-page h2 {
+    color: #4B0082; /* Indigo */
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.contact-page input, 
+.contact-page textarea {
+    width: 100%;
+    padding: 10px; /* Adjusted padding */
+    margin: 6px 0; /* Slightly smaller margin */
+    font-size: 14px; /* Font size */
+    border: 1px solid #4B0082; /* Indigo border */
+    border-radius: 5px;
+    background-color: #E6E6FA; /* Light violet background */
+    color: #4B0082; /* Indigo text */
+}
+
+/* Button styling */
+.contact-page button {
+    width: 100%;
+    padding: 8px; /* Adjusted button padding */
+    background-color: #8A2BE2; /* Blue violet */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-page button:hover {
+    background-color: #4B0082; /* Indigo on hover */
+}
+
+/* Paragraph styling */
+.contact-page p {
+    color: #9400D3; /* Dark violet */
+}
+
+/* Label styling */
+.contact-page label {
+    color: #4B0082; /* Indigo */
+    display: block;
+    margin-bottom: 10px;
+}

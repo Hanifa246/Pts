@@ -1,0 +1,135 @@
+/* General styling for the homepage */
+.homepage {
+    font-family: Arial, sans-serif;
+    color: #333; /* Default text color */
+}
+
+/* Main section styling */
+.home-page {
+    display: flex;
+    justify-content: space-between; /* Space between content and image */
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Content styling */
+.content {
+    max-width: 500px; /* Limit the width of the content */
+}
+
+.content h2 {
+    font-size: 2em; /* Larger font size for subheading */
+    color: #4B0082; /* Indigo color */
+}
+
+.content h1 {
+    font-size: 2.5em; /* Larger font size for main heading */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.content p {
+    font-size: 1.1em; /* Slightly larger font size for paragraphs */
+    margin-bottom: 20px; /* Margin for spacing */
+}
+
+/* Button styling */
+button {
+    background-color: #8A2BE2; /* Blue violet background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4B0082; /* Darker shade on hover */
+}
+
+/* Image styling */
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* About section styling */
+#about {
+    padding: 40px 20px;
+    background-color: #E6E6FA; /* Light violet background */
+}
+
+#about h2 {
+    text-align: center; /* Centered heading */
+    color: #4B0082; /* Indigo color */
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around; /* Space between stat boxes */
+    margin-top: 20px; /* Margin for spacing */
+}
+
+.stat-box {
+    text-align: center; /* Centered text */
+    border: 1px solid #4B0082; /* Indigo border */
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for boxes */
+}
+
+/* Sections styling */
+.sections {
+    display: flex;
+    justify-content: space-between; /* Space between sections */
+    margin-top: 40px; /* Margin for spacing */
+}
+
+.section {
+    flex: 1; /* Equal width for all sections */
+    margin: 0 10px; /* Margin for spacing */
+    padding: 20px;
+    background-color: #D8BFD8; /* Light purple background */
+    border-radius: 5px;
+}
+
+.section h2 {
+    text-align: center; /* Centered heading */
+}
+
+/* Contact section styling */
+/* Contact section styling */
+#contact {
+    padding: 40px 20px;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+.contact-page {
+    display: flex; /* Use flexbox to align in a row */
+    justify-content: space-between; /* Space between contact sections */
+    flex-wrap: wrap; /* Allows wrapping if the screen is too small */
+    margin-top: 20px; /* Margin for spacing */
+}
+
+.contact-section {
+    flex: 1; /* Equal width for all contact sections */
+    margin: 0 10px; /* Margin for spacing */
+    padding: 20px;
+    background-color: #E6E6FA; /* Light violet background */
+    border-radius: 5px;
+    min-width: 200px; /* Minimum width for sections to ensure they don’t get too small */
+}
+
+.contact-section h2 {
+    text-align: center; /* Centered heading */
+}
+
+.contact-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.contact-section li {
+    margin: 10px 0; /* Margin for spacing */
+}

@@ -1,0 +1,68 @@
+/* General Heading Styles */
+h2 {
+    text-align: left;
+    color: #2c3e50; /* Dark Blue */
+    font-size: 1.8rem; /* Heading font size */
+    margin-top: 20px;
+}
+
+p {
+    text-align: left;
+    color: #34495e; /* Slate Blue */
+    font-size: 1rem; /* Standard font size */
+    margin-bottom: 30px;
+}
+
+/* Dashboard Item Styles */
+.dashboard-item {
+    background-color: #ecf0f1; /* Light Gray */
+    padding: 10px 15px; /* Smaller padding */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+    text-align: center; /* Center text inside items */
+}
+
+.dashboard-item h3 {
+    margin: 0;
+    font-size: 1.2rem; /* Slightly smaller font */
+    color: #2980b9; /* Bright Blue */
+}
+
+.dashboard-item:hover {
+    background-color: #bdc3c7; /* Darker gray on hover */
+}
+
+.dashboard-item a {
+    text-decoration: none; /* No underline on links */
+}
+
+/* Summary Grid Layout */
+.summary-grid {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items horizontally */
+    margin: 20px 0; /* Space around the grid */
+}
+
+/* Summary Item Styles */
+.summary-item {
+    flex: 1 1 150px; /* Flexible base width */
+    margin: 10px; /* Space between items */
+    padding: 20px; /* Padding inside the item */
+    border: 1px solid #95a5a6; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+/* Responsive Layout for smaller screens */
+@media (max-width: 768px) {
+    .dashboard-item {
+        width: 100%; /* Full width for small screens */
+    }
+    .summary-item {
+        flex: 1 1 100%; /* Full width for summary items */
+    }
+}
